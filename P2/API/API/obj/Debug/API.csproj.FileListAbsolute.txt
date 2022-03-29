@@ -1,0 +1,14 @@
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\bin\Debug\API.exe.config
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\bin\Debug\API.exe
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\bin\Debug\API.pdb
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.csproj.AssemblyReference.cache
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.csproj.SuggestedBindingRedirects.cache
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.Properties.Resources.resources
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.csproj.GenerateResource.cache
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.csproj.CoreCompileInputs.cache
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.exe
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.pdb
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.Form1.resources
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\P2\API\API\obj\Debug\API.csproj.CopyComplete
