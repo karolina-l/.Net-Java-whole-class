@@ -1,0 +1,12 @@
+{
+	"disclaimer": "https://openexchangerates.org/terms/",
+	"license": "https://openexchangerates.org/license/",
+	"timestamp": 1449877801,
+	"base": "USD",
+	"rates": {
+		"PLN": 3.5,
+		"EUR": 66.5,
+		"USD": 125.5,
+		"GBP": 484.5
+	}
+}

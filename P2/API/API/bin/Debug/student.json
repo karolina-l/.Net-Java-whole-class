@@ -1,14 +1,1 @@
-[
-  {
-    "studentId": 1,
-    "studentName": "Adam"
-  },
-  {
-    "studentId": 2,
-    "studentName": "Bartek"
-  },
-  {
-    "studentId": 3,
-    "studentName": "Czarek"
-  }
-]
+{"USD_PHP":{"2022-04-04":4},"PHP_USD":{"2022-04-04":0.019468}}
