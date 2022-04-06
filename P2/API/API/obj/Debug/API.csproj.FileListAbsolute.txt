@@ -26,3 +26,9 @@ C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whol
 C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\obj\Debug\API.csproj.CopyComplete
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\bin\Debug\EntityFramework.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\bin\Debug\EntityFramework.xml
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\obj\Debug\API.Migrations.InitialCreate.resources
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\P2\API\API\obj\Debug\API.Migrations.nasza_pierwsza_migracja.resources

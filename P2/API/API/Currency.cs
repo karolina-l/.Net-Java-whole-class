@@ -7,36 +7,30 @@ namespace API
 {
     public class Currency
     {
-        //wszystko co jest w tej klasie jest spisane z neta, bo to już był szczyt moich możliwości wczoraj.
-        //Nawet nie do końca wiem jak to działa XD
-        private readonly String BASE_URI = "https://free.currconv.com/";
-        private readonly String API_VERSION = "v7";
+        public int Id { get; set; }
+        public string base_currency_ { get; set; }
+        public string final_currency_ { get; set; }
+        public string date_ { get; set; }
+        public decimal rate_ { get; set; }
 
-        public Decimal GetCurrencyExchange(String localCurrency, String foreignCurrency)
+        /*public Currency()
         {
-            var code = $"{localCurrency}_{foreignCurrency}";
-            var newRate = FetchSerializedData(code);
-            return newRate;
+            base_currency_ = "0";
+            final_currency_ = "0";
+            date_ = "0";
+            rate_ = 0;
         }
-
-        public Decimal FetchSerializedData(String code)
+        public Currency( string bc, string fc, string d, decimal r)
         {
-            var url = $"{BASE_URI}/api/{API_VERSION}/convert?q={code}&compact=y";
-            var webClient = new WebClient();
-            var jsonData = String.Empty;
+            base_currency_ = bc;
+            final_currency_ = fc;
+            date_ = d;
+            rate_ = r;
+        }*/
 
-            var conversionRate = 1.0m;
-            try
-            {
-                jsonData = webClient.DownloadString(url);
-                var jsonObject = new JavaScriptSerializer().Deserialize<Dictionary<string, Dictionary<string, decimal>>>(jsonData);
-                var result = jsonObject[code];
-                conversionRate = result["val"];
-
-            }
-            catch (Exception) { }
-
-            return conversionRate;
+        public override string ToString()
+        {
+            return Id.ToString() + ", " + base_currency_ + "_" + final_currency_ + ", " + rate_.ToString();
         }
-    }
+    }  
 }
