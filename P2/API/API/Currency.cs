@@ -30,7 +30,7 @@ namespace API
 
         public override string ToString()
         {
-            return Id.ToString() + ", " + base_currency_ + "_" + final_currency_ + ", " + rate_.ToString();
+            return Id.ToString() + ", " + base_currency_ + "_" + final_currency_ + ", " + rate_.ToString() +", "+ date_;
         }
     }  
 }
