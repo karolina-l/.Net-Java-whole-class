@@ -30,7 +30,7 @@ namespace API
             chart.Series.Clear();
             
             //bank.SaveChanges();
-            currencyDraw = new CurrencyDraw();
+            
             listCurrencyDraw = new List<CurrencyDraw>();
         }
 
@@ -38,27 +38,14 @@ namespace API
         {
 
         }
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            date = textBox2.Text;
-        }
+        
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             final_currency = textBox3.Text;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            date = DateTime.Now.ToString("yyyy-MM-dd");
-            textBox2.Text = date;
-        }
-
-        private void textBox4_TextChanged_1(object sender, EventArgs e)
-        {
-            amt = textBox4.Text;
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             foreach (var c in bank.Currencies)
@@ -82,11 +69,15 @@ namespace API
             //objChart.AxisX.Maximum = 5;
             //objChart.AxisY.Maximum = 5;
             int i = 0;
+            var max = listCurrencyDraw.Max(t => t.Rate);
+            var min = listCurrencyDraw.Min(t => t.Rate);
+            chart.ChartAreas[0].AxisY.Maximum = (double) (max+max/1000);
+            chart.ChartAreas[0].AxisY.Minimum = (double) (min-min/1000);
             chart.Series.Add(base_currency + " to " + final_currency);
             chart.Series[0].ChartType = SeriesChartType.Line;
             foreach (var c in listCurrencyDraw)
             {
-                chart.Series[0].Points.AddXY(i + 1, c.Rate);
+                chart.Series[base_currency + " to " + final_currency].Points.AddXY(c.Date, c.Rate);
                 i++;
             }
         }
@@ -124,6 +115,7 @@ namespace API
                     bank.Currencies.Add(test);
                     bank.SaveChanges();
                 }
+                currencyDraw = new CurrencyDraw();
                 currencyDraw.Rate = test.rate_;
                 currencyDraw.Date = dateTime;
                 listCurrencyDraw.Add(currencyDraw);
@@ -156,7 +148,7 @@ namespace API
             }
             var d = Convert.ToDouble(test.rate_);
             var result = d * amount;
-            textBox6.Text = result.ToString();
+            //textBox6.Text = result.ToString();
             //listBox1.Items.Clear();
             //listBox1.Items.Add(dat.ToString());
         }
@@ -175,7 +167,7 @@ namespace API
             //testy na pliku
             //string json = File.ReadAllText("student.json");
             
-            textBox5.Text = json;
+            //textBox5.Text = json;
             var jsonObject = new JavaScriptSerializer().Deserialize<Dictionary<string, Dictionary<string, decimal>>>(json);
             var result = jsonObject[code];
             conversionRate = result[dd];
