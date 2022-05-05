@@ -1,0 +1,61 @@
+﻿@page
+@model WebApp.Pages.Games.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Database</h1>
+
+<p>
+    <button type="button" onclick=asp-page="Create">Create New</button>
+    <a asp-page="Create">Create New</a> 
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].RelaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].Platforms)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Games[0].Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Games) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RelaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Platforms)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
