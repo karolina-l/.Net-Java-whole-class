@@ -8,57 +8,57 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\New Web\WebApp\WebApp\
+build_property.ProjectDir = C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\WebApplication\WebApp\WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\New Web\WebApp\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\WebApplication\WebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Error.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Games/Create.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Games/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Games/Delete.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Games/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Games/Details.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Games/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Games/Edit.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Games/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Games/Index.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Games/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Index.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Privacy.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/_ViewImports.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/_ViewStart.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/New Web/WebApp/WebApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/Karolina/Desktop/Karolina/Studia/3 rok/6 sem/.NET i Java/.Net-Java-whole-class/WebApplication/WebApp/WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2

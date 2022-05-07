@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8kkbIvz79Rv6Q51PI9EZhb0MDQTVgyp0sQplhGvV1keQYTCbgYi9WLEiaLi4ub47mjCB6YLVn1mO+30CA8KqjA==",
+  "dgSpecHash": "+Hr5ozY92A87+L73M1UsTzeNzAf9JZaK2CBbCWwB0s4DxvPdq6jju9UuVwMnuR2hHGEoOO9d8PqHOlqwdescwQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\New Web\\WebApp\\WebApp\\WebApp.csproj",
+  "projectFilePath": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\WebApplication\\WebApp\\WebApp\\WebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Karolina\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Karolina\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

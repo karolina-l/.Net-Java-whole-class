@@ -9600,11 +9600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\New Web\\WebApp\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\WebApplication\\WebApp\\WebApp\\WebApp.csproj",
       "projectName": "WebApp",
-      "projectPath": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\New Web\\WebApp\\WebApp\\WebApp.csproj",
+      "projectPath": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\WebApplication\\WebApp\\WebApp\\WebApp.csproj",
       "packagesPath": "C:\\Users\\Karolina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\New Web\\WebApp\\WebApp\\obj\\",
+      "outputPath": "C:\\Users\\Karolina\\Desktop\\Karolina\\Studia\\3 rok\\6 sem\\.NET i Java\\.Net-Java-whole-class\\WebApplication\\WebApp\\WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
