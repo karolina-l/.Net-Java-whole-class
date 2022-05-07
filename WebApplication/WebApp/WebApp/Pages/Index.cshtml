@@ -1,10 +1,14 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Najpiekniesza strona ever";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>The time on the server is @DateTime.Now</p>
+    <a class="btn btn-primary" asp-page="Co to bedzie">AAAAA</a>
+    <p style="padding: 7em 7em 7em 7em;">
+        <iframe src="https://giphy.com/embed/XO8RMtRaK73isIt0i2" width="960" height="594" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ProBItExchange-dog-hello-hi-XO8RMtRaK73isIt0i2">via GIPHY</a></p>
+    </p>
 </div>
