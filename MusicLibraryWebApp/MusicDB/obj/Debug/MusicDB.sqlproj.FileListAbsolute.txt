@@ -1,0 +1,9 @@
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\bin\Debug\MusicDB.dacpac
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\bin\Debug\MusicDB.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\bin\Debug\MusicDB.pdb
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\obj\Debug\Model.xml
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\obj\Debug\refactor.xml
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\obj\Debug\postdeploy.sql
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\obj\Debug\predeploy.sql
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\obj\Debug\MusicDB.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\MusicDB\obj\Debug\MusicDB.pdb

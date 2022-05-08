@@ -1,0 +1,9 @@
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\Karolina\Desktop\Karolina\Studia\3 rok\6 sem\.NET i Java\.Net-Java-whole-class\MusicLibraryWebApp\DataLibrary\obj\Debug\DataLibrary.pdb

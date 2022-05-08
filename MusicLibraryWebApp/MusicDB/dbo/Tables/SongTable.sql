@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[SongTable]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Title] NVARCHAR(275) NOT NULL, 
+    [Author] NVARCHAR(200) NOT NULL, 
+    [Album] NVARCHAR(275) NOT NULL, 
+    [CoverLink] NVARCHAR(1000) NULL, 
+    [SongId] INT NOT NULL
+)
