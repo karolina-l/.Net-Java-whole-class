@@ -9,8 +9,8 @@ import java.util.Random;
 public class Gameplay extends JPanel implements KeyListener, ActionListener {
 
     //snake
-    private int[] snakexlength = new int[750];
-    private int[] snakeylength = new int[750];
+    private final int[] snakexlength = new int[750];
+    private final int[] snakeylength = new int[750];
 
     private int totallength = 3;
     private int moves = 0;
@@ -27,20 +27,18 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private ImageIcon snakeimage;
 
     //enemy
-    private int [] enemyxpos = {25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,
+    private final int [] enemyxpos = {25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,
             400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850};
-    private int [] enemyypos = {75,100,125,150,175,200,225,250,275,300,325,350,375,400,425
+    private final int [] enemyypos = {75,100,125,150,175,200,225,250,275,300,325,350,375,400,425
             ,450,475,500,525,550,575,600,625};
-
     private ImageIcon enemyimage;
 
-    private Random random = new Random();
+    private final Random random = new Random();
     private int xpos = random.nextInt(34);
     private int ypos = random.nextInt(23);
 
     //timer
-    private Timer timer;
-    private int delay = 100;
+    private final Timer timer;
 
     private int score = 0;
 
@@ -50,6 +48,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         addKeyListener(this);
         setFocusable(true);
         setFocusTraversalKeysEnabled(false);
+        int delay = 100;
         timer = new Timer(delay, this);
         timer.start();
     }
@@ -165,12 +164,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         timer.start();
         if(right)
         {
-            for(int i = totallength-1; i >= 0; i--)
-            {
-                snakeylength[i+1] = snakeylength[i];
-            }
             for(int i = totallength; i >= 0; i--)
             {
+                snakeylength[i+1] = snakeylength[i];
                 if(i == 0)
                 {
                     snakexlength[i] = snakexlength[i] + 25;
@@ -188,12 +184,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         }
         if(left)
         {
-            for(int i = totallength-1; i >= 0; i--)
-            {
-                snakeylength[i+1] = snakeylength[i];
-            }
             for(int i = totallength; i >= 0; i--)
             {
+                snakeylength[i+1] = snakeylength[i];
                 if(i == 0)
                 {
                     snakexlength[i] = snakexlength[i] - 25;
@@ -211,12 +204,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         }
         if(up)
         {
-            for(int i = totallength-1; i >= 0; i--)
-            {
-                snakexlength[i+1] = snakexlength[i];
-            }
             for(int i = totallength; i >= 0; i--)
             {
+                snakexlength[i+1] = snakexlength[i];
                 if(i == 0)
                 {
                     snakeylength[i] = snakeylength[i] - 25;
@@ -234,12 +224,9 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
         }
         if(down)
         {
-            for(int i = totallength-1; i >= 0; i--)
-            {
-                snakexlength[i+1] = snakexlength[i];
-            }
             for(int i = totallength; i >= 0; i--)
             {
+                snakexlength[i+1] = snakexlength[i];
                 if(i == 0)
                 {
                     snakeylength[i] = snakeylength[i] + 25;
@@ -258,10 +245,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     }
 
     @Override
-    public void keyTyped(KeyEvent e)
-    {
-
-    }
+    public void keyTyped(KeyEvent e){}
 
     @Override
     public void keyPressed(KeyEvent e)
@@ -271,7 +255,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
             moves = 0;
             score = 0;
             totallength = 3;
-            repaint();
+            repaint(); 
         }
         if(e.getKeyCode() == KeyEvent.VK_RIGHT)
         {
@@ -304,8 +288,5 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     }
 
     @Override
-    public void keyReleased(KeyEvent e)
-    {
-
-    }
+    public void keyReleased(KeyEvent e){}
 }
