@@ -29,13 +29,58 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     //enemy
     private final int [] enemyxpos = {25,50,75,100,125,150,175,200,225,250,275,300,325,350,375,
             400,425,450,475,500,525,550,575,600,625,650,675,700,725,750,775,800,825,850};
-    private final int [] enemyypos = {75,100,125,150,175,200,225,250,275,300,325,350,375,400,425
-            ,450,475,500,525,550,575,600,625};
+    private final int [] enemyypos = {75,100,125,150,175,200,225,250,275,300,325,350,375,400,425,
+            450,475,500,525,550,575,600,625};
     private ImageIcon enemyimage;
+
+    private int[] enemyrun(int x, int y)
+    {
+        int direction = random.nextInt(4);
+        int[] param = new int[2];
+        param[0] = x;
+        param[1] = y;
+        if(direction == 0)
+        {
+            param[0] += 1;
+        }
+        else if (direction == 1)
+        {
+            param[0] += 1;
+        }
+        else if(direction == 2)
+        {
+            param[1] += 1;
+        }
+        else
+        {
+            param[1] += 1;
+        }
+        if(param[0] == 34)
+        {
+            param[0] = 0;
+        }
+        else if (param[0] == -1)
+        {
+            param[0] = 33;
+        }
+        if(param[1] == 23)
+        {
+            param[1] = 0;
+        }
+        else if (param[1] == -1)
+        {
+            param[1] = 22;
+        }
+        return param;
+    }
 
     private final Random random = new Random();
     private int xpos = random.nextInt(34);
     private int ypos = random.nextInt(23);
+    private int xpos1 = random.nextInt(34);
+    private int ypos1 = random.nextInt(23);
+    private int xpos2 = random.nextInt(34);
+    private int ypos2 = random.nextInt(23);
 
     //timer
     private final Timer timer;
@@ -134,8 +179,45 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
            xpos = random.nextInt(34);
            ypos = random.nextInt(23);
         }
+        else
+        {
+            int[] temp;
+            temp = enemyrun(xpos, ypos);
+            xpos = temp[0];
+            ypos = temp[1];
+        }
+        if((enemyxpos[xpos1] == snakexlength[0]) && (enemyypos[ypos1] == snakeylength[0]))
+        {
+            score++;
+            totallength++;
+            xpos1 = random.nextInt(34);
+            ypos1 = random.nextInt(23);
+        }
+        else
+        {
+            int[] temp;
+            temp = enemyrun(xpos1, ypos1);
+            xpos1 = temp[0];
+            ypos1 = temp[1];
+        }
+        if((enemyxpos[xpos2] == snakexlength[0]) && (enemyypos[ypos2] == snakeylength[0]))
+        {
+            score++;
+            totallength++;
+            xpos2 = random.nextInt(34);
+            ypos2 = random.nextInt(23);
+        }
+        else
+        {
+            int[] temp;
+            temp = enemyrun(xpos2, ypos2);
+            xpos2 = temp[0];
+            ypos2 = temp[1];
+        }
 
         enemyimage.paintIcon(this, g, enemyxpos[xpos], enemyypos[ypos]);
+        enemyimage.paintIcon(this, g, enemyxpos[xpos1], enemyypos[ypos1]);
+        enemyimage.paintIcon(this, g, enemyxpos[xpos2], enemyypos[ypos2]);
 
         for(int i = 1; i < totallength; i++)
         {
@@ -255,7 +337,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
             moves = 0;
             score = 0;
             totallength = 3;
-            repaint(); 
+            repaint();
         }
         if(e.getKeyCode() == KeyEvent.VK_RIGHT)
         {
